@@ -28,7 +28,7 @@ test('@@toStringTag', { skip: !hasSymbols || !Symbol.toStringTag }, function (t)
 
 test('Numbers', function (t) {
 	t.ok(isNumber(42), 'number is Number');
-	t.ok(isNumber(new Number(42)), 'number object is Number');
+	t.ok(isNumber(Object(42)), 'number object is Number');
 	t.ok(isNumber(NaN), 'NaN is Number');
 	t.ok(isNumber(Infinity), 'Infinity is Number');
 	t.end();
