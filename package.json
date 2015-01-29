@@ -1,6 +1,6 @@
 {
 	"name": "is-number-object",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"author": "Jordan Harband",
 	"description": "Is this value a JS Number object? This module works cross-realm/iframe, and despite ES6 @@toStringTag.",
 	"license": "MIT",
