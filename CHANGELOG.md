@@ -1,3 +1,7 @@
+1.0.3 / 2015-01-29
+=================
+  * If @@toStringTag is not present, use the old-school Object#toString test.
+
 1.0.2 / 2015-01-29
 =================
   * Fix package.json
