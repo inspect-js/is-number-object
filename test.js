@@ -20,7 +20,7 @@ test('not Numbers', function (t) {
 });
 
 test('@@toStringTag', { skip: !hasSymbols || !Symbol.toStringTag }, function (t) {
-	var fakeNumber = { valueOf: function () { return 42; }, toString: function () { return '7'; } };
+	var fakeNumber = { toString: function () { return '7'; }, valueOf: function () { return 42; } };
 	fakeNumber[Symbol.toStringTag] = 'Number';
 	t.notOk(isNumber(fakeNumber), 'fake Number with @@toStringTag "Number" is not Number');
 	t.end();
