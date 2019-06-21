@@ -14,7 +14,11 @@ var numClass = '[object Number]';
 var hasToStringTag = typeof Symbol === 'function' && typeof Symbol.toStringTag === 'symbol';
 
 module.exports = function isNumberObject(value) {
-	if (typeof value === 'number') { return true; }
-	if (typeof value !== 'object') { return false; }
+	if (typeof value === 'number') {
+		return true;
+	}
+	if (typeof value !== 'object') {
+		return false;
+	}
 	return hasToStringTag ? tryNumberObject(value) : toStr.call(value) === numClass;
 };
