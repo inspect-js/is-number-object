@@ -1,7 +1,7 @@
 'use strict';
 
 var test = require('tape');
-var isNumber = require('./');
+var isNumber = require('../');
 var hasSymbols = require('has-symbols')();
 
 test('not Numbers', function (t) {

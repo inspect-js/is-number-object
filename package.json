@@ -7,11 +7,10 @@
 	"main": "index.js",
 	"scripts": {
 		"pretest": "npm run lint",
-		"tests-only": "node --harmony --es-staging test.js",
+		"tests-only": "node --harmony --es-staging test",
 		"test": "npm run tests-only",
 		"posttest": "npx aud",
-		"coverage": "covert test.js",
-		"coverage-quiet": "covert test.js --quiet",
+		"coverage": "covert test/index.js",
 		"lint": "eslint .",
 		"eccheck": "eclint check *.js **/*.js > /dev/null"
 	},
@@ -28,20 +27,20 @@
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"@ljharb/eslint-config": "^13.1.1",
+		"@ljharb/eslint-config": "^14.1.0",
 		"covert": "^1.1.1",
 		"eclint": "^2.8.1",
-		"eslint": "^5.16.0",
+		"eslint": "^6.4.0",
 		"foreach": "^2.0.5",
 		"has-symbols": "^1.0.0",
 		"indexof": "^0.0.1",
 		"is": "^3.3.0",
-		"replace": "^1.1.0",
+		"replace": "^1.1.1",
 		"semver": "^6.3.0",
 		"tape": "^4.11.0"
 	},
 	"testling": {
-		"files": "test.js",
+		"files": "test/index.js",
 		"browsers": [
 			"iexplore/6.0..latest",
 			"firefox/3.0..6.0",
