@@ -8,8 +8,6 @@
 
 [![npm badge][11]][1]
 
-[![browser support][9]][10]
-
 Is this value a JS Number object? This module works cross-realm/iframe, and despite ES6 @@toStringTag.
 
 ## Example
@@ -40,15 +38,13 @@ assert.ok(isNumber(new Number(42)));
 Simply clone the repo, `npm install`, and run `npm test`
 
 [1]: https://npmjs.org/package/is-number-object
-[2]: http://versionbadg.es/ljharb/is-number-object.svg
-[3]: https://travis-ci.org/ljharb/is-number-object.svg
-[4]: https://travis-ci.org/ljharb/is-number-object
-[5]: https://david-dm.org/ljharb/is-number-object.svg
-[6]: https://david-dm.org/ljharb/is-number-object
-[7]: https://david-dm.org/ljharb/is-number-object/dev-status.svg
-[8]: https://david-dm.org/ljharb/is-number-object#info=devDependencies
-[9]: https://ci.testling.com/ljharb/is-number-object.png
-[10]: https://ci.testling.com/ljharb/is-number-object
+[2]: http://versionbadg.es/inspect-js/is-number-object.svg
+[3]: https://travis-ci.org/inspect-js/is-number-object.svg
+[4]: https://travis-ci.org/inspect-js/is-number-object
+[5]: https://david-dm.org/inspect-js/is-number-object.svg
+[6]: https://david-dm.org/inspect-js/is-number-object
+[7]: https://david-dm.org/inspect-js/is-number-object/dev-status.svg
+[8]: https://david-dm.org/inspect-js/is-number-object#info=devDependencies
 [11]: https://nodei.co/npm/is-number-object.png?downloads=true&stars=true
 [license-image]: http://img.shields.io/npm/l/is-number-object.svg
 [license-url]: LICENSE
