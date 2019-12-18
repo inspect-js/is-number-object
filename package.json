@@ -42,9 +42,7 @@
 		"has-symbols": "^1.0.1",
 		"indexof": "^0.0.1",
 		"is": "^3.3.0",
-		"replace": "^1.1.1",
 		"safe-publish-latest": "^1.1.4",
-		"semver": "^6.3.0",
 		"tape": "^4.11.0"
 	},
 	"testling": {
