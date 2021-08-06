@@ -40,7 +40,6 @@
 		"eclint": "^2.8.1",
 		"eslint": "^7.25.0",
 		"foreach": "^2.0.5",
-		"has-symbols": "^1.0.2",
 		"indexof": "^0.0.1",
 		"is": "^3.3.0",
 		"nyc": "^10.3.2",
@@ -75,5 +74,8 @@
 		"commitLimit": false,
 		"backfillLimit": false,
 		"hideCredit": true
+	},
+	"dependencies": {
+		"has-tostringtag": "^1.0.0"
 	}
 }
