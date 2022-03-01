@@ -6,7 +6,6 @@
 		"url": "https://github.com/sponsors/ljharb"
 	},
 	"description": "Is this value a JS Number object? This module works cross-realm/iframe, and despite ES6 @@toStringTag.",
-	"license": "MIT",
 	"main": "index.js",
 	"scripts": {
 		"prepublishOnly": "safe-publish-latest",
@@ -32,6 +31,11 @@
 		"@@toStringTag",
 		"Number object"
 	],
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/inspect-js/is-number-object/issues"
+	},
+	"homepage": "https://github.com/inspect-js/is-number-object#readme",
 	"devDependencies": {
 		"@ljharb/eslint-config": "^20.2.0",
 		"aud": "^2.0.0",
