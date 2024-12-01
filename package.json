@@ -82,7 +82,7 @@
 		"hideCredit": true
 	},
 	"dependencies": {
-		"has-tostringtag": "^1.0.0"
+		"has-tostringtag": "^1.0.2"
 	},
 	"publishConfig": {
 		"ignore": [
