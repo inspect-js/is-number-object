@@ -4,6 +4,7 @@ var callBound = require('call-bind/callBound');
 
 var $numToStr = callBound('Number.prototype.toString');
 
+/** @type {import('.')} */
 var tryNumberObject = function tryNumberObject(value) {
 	try {
 		$numToStr(value);
@@ -16,6 +17,7 @@ var $toString = callBound('Object.prototype.toString');
 var numClass = '[object Number]';
 var hasToStringTag = require('has-tostringtag/shams')();
 
+/** @type {import('.')} */
 module.exports = function isNumberObject(value) {
 	if (typeof value === 'number') {
 		return true;
