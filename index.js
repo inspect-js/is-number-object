@@ -20,7 +20,7 @@ module.exports = function isNumberObject(value) {
 	if (typeof value === 'number') {
 		return true;
 	}
-	if (typeof value !== 'object') {
+	if (!value || typeof value !== 'object') {
 		return false;
 	}
 	return hasToStringTag ? tryNumberObject(value) : $toString(value) === numClass;
