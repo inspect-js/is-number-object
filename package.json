@@ -39,7 +39,7 @@
 	},
 	"homepage": "https://github.com/inspect-js/is-number-object#readme",
 	"dependencies": {
-		"call-bind": "^1.0.7",
+		"call-bind": "^1.0.8",
 		"has-tostringtag": "^1.0.2"
 	},
 	"devDependencies": {
